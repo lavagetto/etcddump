@@ -9,26 +9,26 @@ Installation
 
 You can install etcddump from sources by cloning this repository and run
 
-.. code:: bash
+.. code-block:: bash
     $ sudo python setup.py install
 
 
 Alternatively you may use pip:
 
-.. code:: bash
+.. code-block:: bash
     $ sudo pip install etcddump
 
 
-After you've installed etcddump, the program `etcdumper` will be available on your system
+After you've installed etcddump, the program ``etcdumper`` will be available on your system
 
-The only dependency of `etcddump` is `[python-ectd](https://github.com/jplana/python-etcd) version 0.3.0 or later.
+The only dependency of ``etcddump`` is  `python-ectd <https://github.com/jplana/python-etcd>`_ version 0.3.0 or later.
 
 Usage
 -----
 
 Usage is really simple and has been thought so that it resembles how most dumper programs work.
 
-.. code:: bash
+.. code-block:: bash
     # dump to stdout
     etcdumper dump https://etcd.example.com:4001
 

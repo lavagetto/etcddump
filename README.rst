@@ -30,7 +30,7 @@ Usage
 
 Usage is really simple and has been thought so that it resembles how most dumper programs work.
 
-.. code-block:: bash
+.. code:: bash
 
     # dump to stdout
     etcdumper dump https://etcd.example.com:4001

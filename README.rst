@@ -9,13 +9,15 @@ Installation
 
 You can install etcddump from sources by cloning this repository and run
 
-.. code-block:: bash
+.. code:: bash
+
     $ sudo python setup.py install
 
 
 Alternatively you may use pip:
 
-.. code-block:: bash
+.. code:: bash
+
     $ sudo pip install etcddump
 
 
@@ -29,6 +31,7 @@ Usage
 Usage is really simple and has been thought so that it resembles how most dumper programs work.
 
 .. code-block:: bash
+
     # dump to stdout
     etcdumper dump https://etcd.example.com:4001
 

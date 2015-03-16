@@ -23,7 +23,7 @@ setup(name='etcddump',
         "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)"
     ],
     long_description=README,
-    keywords='etcd datastore dumper program, fork from lavagetto',
+    keywords='etcd datastore dumper program',
     author='Giuseppe Lavagetto',
     author_email='lavagetto@gmail.com',
     url='http://github.com/lavagetto/etcddump',

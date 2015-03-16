@@ -13,6 +13,13 @@ You can install etcddump from sources by cloning this repository and run
 .. code:: bash
 
     $ sudo python setup.py install
+-
+Alternatively you may use pip:
+
+.. code:: bash
+
+    $ sudo pip install etcddump
+
 
 
 After you've installed etcddump, the program ``etcdumper`` will be available on your system

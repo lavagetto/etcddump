@@ -5,7 +5,7 @@ here = os.path.abspath(os.path.dirname(__file__))
 README = open(os.path.join(here, 'README.rst')).read()
 
 
-version = '0.0.1'
+version = '0.0.2'
 
 install_requires = [
     'python-etcd>=0.3.0',
@@ -23,10 +23,10 @@ setup(name='etcddump',
         "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)"
     ],
     long_description=README,
-    keywords='etcd datastore dumper program',
-    author='Giuseppe Lavagetto',
-    author_email='lavagetto@gmail.com',
-    url='http://github.com/lavagetto/etcddump',
+    keywords='etcd datastore dumper program, fork from lavagetto',
+    author='Dawid Dec',
+    author_email='dawiddec@gmail.com',
+    url='http://github.com/deceq/etcddump',
     license='GPL3',
     include_package_data=True,
     zip_safe=False,

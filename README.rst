@@ -3,6 +3,7 @@ etcddump
 
 A dump &amp; load tool for etcd, which respects all key properties (including indexes) of public keys.
 
+Fork from original, fixed utf-8 encoded keys and values.
 
 Installation
 ------------
@@ -12,13 +13,6 @@ You can install etcddump from sources by cloning this repository and run
 .. code:: bash
 
     $ sudo python setup.py install
-
-
-Alternatively you may use pip:
-
-.. code:: bash
-
-    $ sudo pip install etcddump
 
 
 After you've installed etcddump, the program ``etcdumper`` will be available on your system

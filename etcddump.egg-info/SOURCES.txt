@@ -1,0 +1,12 @@
+README.rst
+setup.py
+etcddump/__init__.py
+etcddump/cli.py
+etcddump/operations.py
+etcddump.egg-info/PKG-INFO
+etcddump.egg-info/SOURCES.txt
+etcddump.egg-info/dependency_links.txt
+etcddump.egg-info/entry_points.txt
+etcddump.egg-info/not-zip-safe
+etcddump.egg-info/requires.txt
+etcddump.egg-info/top_level.txt

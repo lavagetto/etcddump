@@ -78,4 +78,4 @@ class Restorer(BaseOperations):
         return idx
 
     def write(self, entry):
-        return self.client.write(entry['key'], entry['value'], ttl = entry['ttl'], dir = entry['dir'])
+	return self.client.write(entry['key'].encode('utf-8'), entry['value'].encode('utf-8'), ttl = entry['ttl'], dir = entry['dir'])        
